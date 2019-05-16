@@ -1,32 +1,46 @@
 {
-  "name": "vue-tour",
-  "version": "1.1.0",
-  "description": "Vue Tour is a lightweight, simple and customizable tour plugin for use with Vue.js. It provides a quick and easy way to guide your users through your application.",
-  "author": "Pulsar <pulsar.dev.team@gmail.com>",
-  "license": "MIT",
-  "main": "dist/vue-tour.common.js",
-  "module": "dist/vue-tour.umd.js",
-  "repository": {
+  "_from": "git://github.com/pulsardev/vue-tour.git#develop",
+  "_id": "vue-tour@1.1.0",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/vue-tour",
+  "_phantomChildren": {},
+  "_requested": {
     "type": "git",
-    "url": "https://github.com/pulsardev/vue-tour.git"
+    "raw": "git://github.com/pulsardev/vue-tour.git#develop",
+    "rawSpec": "git://github.com/pulsardev/vue-tour.git#develop",
+    "saveSpec": "git://github.com/pulsardev/vue-tour.git#develop",
+    "fetchSpec": "git://github.com/pulsardev/vue-tour.git",
+    "gitCommittish": "develop"
   },
-  "keywords": [
-    "vue",
-    "tour"
+  "_requiredBy": [
+    "#USER",
+    "/"
   ],
-  "homepage": "https://pulsardev.github.io/vue-tour",
-  "scripts": {
-    "serve": "vue-cli-service serve --open",
-    "build": "vue-cli-service build --target lib src/main.js",
-    "test:unit": "vue-cli-service test:unit",
-    "lint": "vue-cli-service lint"
+  "_resolved": "git://github.com/pulsardev/vue-tour.git#b864fbb826c485a0aefeb7e3977fc007e7def2bf",
+  "_spec": "git://github.com/pulsardev/vue-tour.git#develop",
+  "_where": "D:\\KBIDEV\\KBProIDE",
+  "author": {
+    "name": "Pulsar",
+    "email": "pulsar.dev.team@gmail.com"
   },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "bugs": {
+    "url": "https://github.com/pulsardev/vue-tour/issues"
+  },
+  "bundleDependencies": false,
   "dependencies": {
     "hash-sum": "^1.0.2",
     "jump.js": "^1.0.2",
     "popper.js": "^1.14.4",
     "vue": "^2.5.17"
   },
+  "deprecated": false,
+  "description": "Vue Tour is a lightweight, simple and customizable tour plugin for use with Vue.js. It provides a quick and easy way to guide your users through your application.",
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.1",
     "@vue/cli-plugin-eslint": "^3.0.1",
@@ -39,9 +53,24 @@
     "sass-loader": "^6.0.7",
     "vue-template-compiler": "^2.5.17"
   },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not ie <= 8"
-  ]
+  "homepage": "https://pulsardev.github.io/vue-tour",
+  "keywords": [
+    "vue",
+    "tour"
+  ],
+  "license": "MIT",
+  "main": "dist/vue-tour.common.js",
+  "module": "dist/vue-tour.umd.js",
+  "name": "vue-tour",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pulsardev/vue-tour.git"
+  },
+  "scripts": {
+    "build": "vue-cli-service build --target lib src/main.js",
+    "lint": "vue-cli-service lint",
+    "serve": "vue-cli-service serve --open",
+    "test:unit": "vue-cli-service test:unit"
+  },
+  "version": "1.1.0"
 }
